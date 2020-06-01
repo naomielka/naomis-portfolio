@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.table {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 97, 145);
+    text-align: center;
+    border: black solid 3px;
+}
+
+.table td {
+    border: black solid 1px;
+    width: 10px;
+    height: 10px;
+}
+
+.table td:hover {
+    background-color: rgb(255, 122, 129);
+}
+
+.clicked {
+    border: solid black 1px;
+    background-color: rgb(252, 196, 210);
+    color: gray;
+}
+
+button {
+    margin: 5px;
+    vertical-align: auto;
+}
